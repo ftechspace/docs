@@ -26,7 +26,14 @@
           {
             "group": "Merchant Portal",
             "pages": [
-              "quickstart"
+              "quickstart",
+              "account-setup",
+              "adding-your-charging-station",
+              "managing-chargers",
+              "managing-charging-sessions",
+              "payments-and-earnings",
+              "dashboard-overview",
+              "troubleshooting"
             ]
           },
           {
