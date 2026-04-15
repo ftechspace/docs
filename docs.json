@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "PlugQuest Docs",
   "colors": {
     "primary": "#16A34A",
@@ -80,5 +80,8 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "favicon": "/images/PlugQuestFavicon.ico"
+  "favicon": "/images/PlugQuestFavicon.ico",
+  "appearance": {
+    "strict": false
+  }
 }
