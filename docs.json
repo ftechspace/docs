@@ -44,8 +44,8 @@
     ]
   },
   "logo": {
-    "light": "/images/PlugQuestHorizontalLogo.jpg",
-    "dark": "/images/PlugQuestHorizontalLogo.jpg",
+    "light": "/images/PlugQuestLogomark.png",
+    "dark": "/images/PlugQuestLogomark.png",
     "href": "https://plugquest.mintlify.app/"
   },
   "navbar": {
