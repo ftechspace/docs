@@ -7,7 +7,6 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "global": {
       "anchors": [
@@ -79,5 +78,6 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "favicon": "/images/PlugQuestFavicon.ico"
 }
