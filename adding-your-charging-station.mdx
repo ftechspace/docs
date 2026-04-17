@@ -1,4 +1,124 @@
 ---
-title: 'Adding Your Charging Station'
+title: "Adding Your Charging Station"
 ---
 
+A **station** is a physical location where EV drivers can charge their vehicles.
+
+This guide walks you through adding a station and configuring at least one charger so your station can go live.
+
+## Before You Start
+
+Make sure you have:
+
+- Access to the Merchant Portal
+- The station’s physical address
+- Location coordinates (or be at the location)
+- Access to the charger
+- Internet connection (WiFi or Ethernet)
+- Optional: images of the station
+
+## Steps to Add a Station
+
+<Frame>
+  ![Screenshot 2026 04 17 124426](/images/Screenshot-2026-04-17-124426.jpg)
+</Frame>
+
+### 1. On the sidebar click **Stations**
+
+### **2. Click the \+ Add Station button (top right)**
+
+### **3.** Enter Basic Information
+
+**Station Name**\
+Give your station a clear name\
+Example: _“City Mall Charging Hub”_
+
+**Location Type**
+
+- Public → Available to all drivers
+- Private → Restricted
+
+**Business Address**\
+Enter the full address of the station
+
+💡 _Tip:_ A clear address helps drivers find your station easily
+
+**Set Location (Coordinates)**
+
+You have 2 options:
+
+**Option 1: Use Current Location**
+
+- Click _Use Current Location_ if you're at the station
+
+**Option 2: Enter Manually**
+
+- Add Latitude and Longitude manually
+
+📌 _Important:_ Accurate location ensures your station appears correctly on the map
+
+**Add Images (Optional)**
+
+- Upload photos of your station
+- You can add multiple images
+
+💡 _Tip:_ Good images increase trust and usage
+
+### 4. Configure Charger 
+
+After saving your station, you’ll need to add and configure at least one charger.
+
+👉 Choose:
+
+- **Save & Add Charger** (recommended)
+- Or add a charger later from the station page
+
+<Frame>
+  ![Screenshot 2026 04 17 124510](/images/Screenshot-2026-04-17-124510.jpg)
+</Frame>
+
+### 5. Add Charger Details
+
+<Frame>
+  ![Screenshot 2026 04 17 124757](/images/Screenshot-2026-04-17-124757.jpg)
+</Frame>
+
+**Charger Name**\
+Example: _“Charger 1”_ or _“Bay A”_
+
+**Charger Type**
+
+- DC → Fast charging
+- AC → Standard charging
+
+Click **Add Charger** to continue
+
+### 6. Connect Charger (Physical Setup)
+
+<Frame>
+  ![Screenshot 2026 04 17 124845](/images/Screenshot-2026-04-17-124845.jpg)
+</Frame>
+
+Make sure:
+
+- Charger is powered ON
+- Connected to the internet
+  - Ethernet (recommended)
+  - Or WiFi
+
+### Configure Charger Connection
+
+1. Open your charger’s settings (via its IP address)
+2. Go to **OCPP / Server Settings**
+3. Paste the **WebSocket URL** provided in the portal
+4. Save settings
+
+📌 This connects your charger to PlugQuest
+
+### Verify Connection
+
+1. Restart the charger
+2. Wait 2–5 minutes
+3. Check status in the portal
+
+👉 When status shows **Connected**, setup is complete
